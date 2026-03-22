@@ -219,7 +219,7 @@ IMAGE_EXPORT_DIRECTORY ENDS
 ResolveOne proc
     push rbp
     mov rbp, rsp
-    sub rsp, 40h
+    sub rsp, 60h
 
     mov [rbp-8],  rcx
     mov [rbp-10h],rdx
